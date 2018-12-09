@@ -1,0 +1,16 @@
+---
+# This playbook intall apache.  
+
+
+- name: Install apache, php  and configure web root  
+  hosts: webservers 
+  sudo: yes
+  roles:
+  - apache 
+  tags:
+  - httpd
+
+
+
+
+

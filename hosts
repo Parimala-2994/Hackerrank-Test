@@ -1,0 +1,9 @@
+
+[webservers]
+localhost 
+
+[dbservers]
+localhost
+
+[targets]
+localhost 	ansible_connection=local
